@@ -1,0 +1,124 @@
+h1 {
+    font-size: 63px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    font-size: 33px;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 15px;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+}
+
+
+a:link {
+    color: rgb(155,0,0);
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(155,0,0);
+    font-weight: bold;
+}
+
+/* Sans serif fonts are generally easier to read (no additional "flicks" on the end of characters. */
+
+body {
+    background: rgb(155,192,219);
+    font-family: Smooch Sans, Arial, Helvetica;
+    color: white;
+}
+
+#dark-mode-button {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 40px;
+    border-radius: 5px;
+}
+
+#introduction {
+    margin: auto;
+    width: 70%;
+    padding: 0em 0.5em 1em 2em;
+    text-align: center;
+    font-size: 40px;
+    position: relative; top: -40px;
+
+}
+
+
+
+/* padding is the distance between the content and the border */
+
+
+#experience {
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+
+#experience > header > h2 {
+    font-size: 50px;
+}
+
+.post {
+    border: 3px solid rgb(0,80,146);
+    margin: 35px;
+    font-size: 30px;
+    height: 250px;
+} 
+
+.post > span {
+    position: relative; top: -30px;
+}
+
+.post > p {
+    position: relative; top: -50px;
+} 
+
+#form {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+input[type="textbox"] {
+    margin: 0px auto;
+    width: 750px;
+    height: 150px;
+    text-align: center;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+input[type="text"] {
+    margin: 0px auto;
+    width: 750px;
+    text-align: center;
+}
+
+#submit-form {
+    width: 750px;
+    color: rgb(0,80,146);
+    font-size: 20px;
+    margin: 5px;
+}
+
+#individual-tb {
+    margin: 5px;
+}
+
+footer {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
